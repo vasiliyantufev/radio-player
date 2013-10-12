@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlienVest</string>
+    <string name="http">HTTP</string>
+    <string name="stream">Stream</string>
+    <string name="sd">SD</string>
+    <string name="uri">Uri</string>
+    <string name="raw">Raw</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="start">Start</string>
+    <string name="loop">Loop</string>
+    <string name="backward">Back</string>
+    <string name="forward">Forw</string>
+    <string name="info">Info</string>
+    <string name="stop">Stop</string>
+    <string name="FullImage">Full Image</string>
+
+    <string name="chushie_ludi">Чужие люди</string>
+    <string name="groza">Гроза</string>
+    <string name="inoplanetynin">Инопланетянин</string>
+    <string name="kukla_vudu">Кукла вуду</string>
+    <string name="molitva">Молитва</string>
+    <string name="teni">Тени</string>
+    <string name="voda_i_plamy">Вода и пламя</string>
+    <string name="zorka">Зорька</string>
+
+    <string name="chushie_ludi_legend">Мысли седые. Люди чужие. Мир одиночеством разбит. Окном
+        открытым ветер будит. Дорога, асфальта полоса… Я снова собираюсь в путь. Куда? Зачем?
+        Ищу я счастье. Хочу опять его вернуть…</string>
+    <string name="groza_legend">Ревет гроза, дымятся тучи над темной бездною морской, и хлещут пеною
+        кипучей, толпяся, волны меж собой. Вкруг скал огнистой лентой вьется печальной молнии змея,
+        стихий тревожный рой мятется - и здесь же недвижим я…</string>
+    <string name="inoplanetynin_legend">Идет мужик по дороге. Темно, поздно, смотрит - кто-то лежит, то
+        ли пьяный, то ли больной. Подходит ближе - а там зеленый человек инопланетный лежит. Вот,
+        думает, дела! Ну он его давай тихонько толкать: - Эй, чувак! что с
+        тобой? очнись!! Тот и очнулся, открыл свои большие зеленые глаза: - Где я? - Привет
+        инопланетному разуму! Ты на Земле, чувак!! - Да? А какого хрена я тут делаю?
+    </string>
+    <string name="kukla_vudu_legend">Я кукла вуду, я плакать не буду. И запомни я ничего не забуду.
+        Мои дети Хаоса, игры теней. В новом ракурсе четче и злей. Мой рот забит, и глаза зашиты. Но
+        никто не забыт и ничто не забыто…
+    </string>
+    <string name="molitva_legend">В минуту жизни трудную, теснится ль в сердце грусть, одну молитву чудную
+        твержу я наизусть. Есть сила благодатная в созвучье слов живых, и дышит
+        непонятная, святая прелесть в них. С души как бремя скатится, сомненье далеко — и верится, и
+        плачется, и так легко, легко…
+    </string>
+    <string name="teni_legend">И бродят тени, и молят тени «Пусти, пусти!»
+        От этих лунных осеребрений куда идти? Мы глухи днем, мы дня не понимаем.
+        В кромешном сумраке как в сказке мы живем и тишине доверчиво внимаем.
+    </string>
+    <string name="voda_i_plamy_legend">Хаос породил Землю, Лед и Огонь. Огонь и Воздух породили Свет.
+        Воздух и Свет породили Небо. Луна и Небо породили Тень. Воздух и Луна породили Сон. Земля и
+        Вода породили Жизнь. Жизнь и Молнии породили Дух. Жизнь и Хаос породили Смерть. Смерть
+        породила Порядок. Порядок и Хаос породили Время. И отсюда начался мир.
+    </string>
+    <string name="zorka_legend">Загорелась зорька красная в небе темно-голубом, полоса явилася ясная
+        в своем блеске золотом. Лучи солнышка высоко отразили в небе свет. И рассыпались далеко от
+        них новые в ответ. Лучи ярко-золотые осветили землю вдруг. Небеса уж голубые расстилаются вокруг.
+    </string>
+
+    <string-array name="country">
+        <item>Russian</item>
+        <item>USA</item>
+    </string-array>
+
+    <string-array name="style">
+        <item>Rock</item>
+        <item>Pop</item>
+    </string-array>
+
+</resources>

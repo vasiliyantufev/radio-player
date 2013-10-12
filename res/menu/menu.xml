@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/playMenu"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="@string/start"/>
+
+    <item
+            android:id="@+id/stopMenu"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="@string/stop"/>
+
+    <item
+            android:id="@+id/backwardMenu"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="@string/backward"/>
+
+    <item
+            android:id="@+id/forwardMenu"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="@string/forward"/>
+</menu>

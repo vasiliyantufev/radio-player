@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <string-array name="Rock">
+        <item>"cdc"</item>
+    </string-array>
+    <array name="Pop">
+        <item>"cdc"</item>
+    </array>
+    <array name="Electro">
+        <item>#FF0000FF</item>
+    </array>
+    <array name="Jazz">
+        <item>#FF00FF00</item>
+    </array>
+    <array name="Blues">
+        <item>"k"</item>
+    </array>
+    <array name="Punk">
+        <item>"p"</item>
+    </array>
+    <array name="Relex">
+        <item>"o"</item>
+    </array>
+    <array name="Simfony">
+        <item>"ll"</item>
+    </array>
+    -->
+</resources>
