@@ -16,6 +16,7 @@ public class AboutMe extends Activity{
     /**
      * Called when the activity is first created.
      */
+    //go go go
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
