@@ -20,7 +20,6 @@ public class MyAdapter extends BaseAdapter {
     public MyAdapter(Context context) {
         inflater = LayoutInflater.from(context);
 
-/**/
         items.add(new Item(R.string.chushie_ludi,   R.drawable.chushie_ludi));
         items.add(new Item(R.string.groza,          R.drawable.groza));
         items.add(new Item(R.string.inoplanetynin,  R.drawable.inoplanetynin));
