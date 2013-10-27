@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AlienVest</string>
+    <string name="aboutme">About Me</string>
+    <string name="radio">Radio</string>
+
     <string name="http">HTTP</string>
     <string name="stream">Stream</string>
     <string name="sd">SD</string>

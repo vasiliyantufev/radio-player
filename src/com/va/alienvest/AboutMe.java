@@ -21,7 +21,6 @@ public class AboutMe extends Activity{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about_me);
-
    }
 
     public void onClickAct(View view) {
