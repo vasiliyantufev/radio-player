@@ -1,5 +1,6 @@
 package com.va.alienvest;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +19,19 @@ public class Main extends Activity {
         setContentView(R.layout.main);
 
         GridView gridView = (GridView)findViewById(R.id.gridview);
+
+/*        ActionBar actionBar = getActionBar();
+        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+
+
+        ActionBar.Tab tab = actionBar.newTab();
+        tab.setText("tab1");
+        actionBar.addTab(tab);
+
+        tab = actionBar.newTab();
+        tab.setText("tab2");
+        actionBar.addTab(tab);*/
+
 
         // устанавливаем адаптер через экземпляр класса ImageAdapter
         gridView.setAdapter(new MyAdapter(this));
