@@ -1,6 +1,5 @@
 package com.va.alienvest;
 
-import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,8 +25,7 @@ public class Main extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.aboutmebtn:
-                //Toast.makeText(this, "aboutmebtn", Toast.LENGTH_LONG).show();
-                Intent iAboutMe = new Intent(getApplicationContext(), AboutMe.class);
+                Intent iAboutMe = new Intent(getApplicationContext(), Test.class);
                 startActivity(iAboutMe);
                 break;
             case R.id.alienvestbtn:

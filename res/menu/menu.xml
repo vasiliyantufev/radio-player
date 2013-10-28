@@ -18,7 +18,7 @@
             android:id="@+id/aboutmebtn"
             android:orderInCategory="100"
             android:showAsAction="always"
-            android:icon="@drawable/av"
+            android:icon="@drawable/photo"
             android:title="@string/aboutme"/>
 
 </menu>
