@@ -25,7 +25,7 @@ public class Main extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.aboutmebtn:
-                Intent iAboutMe = new Intent(getApplicationContext(), Test.class);
+                Intent iAboutMe = new Intent(getApplicationContext(), TestMain.class);
                 startActivity(iAboutMe);
                 break;
             case R.id.alienvestbtn:
