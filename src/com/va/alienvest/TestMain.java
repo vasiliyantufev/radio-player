@@ -3,8 +3,14 @@ package com.va.alienvest;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -20,6 +26,7 @@ public class TestMain extends Activity{
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
+
         return true;
     }
 
@@ -28,6 +35,7 @@ public class TestMain extends Activity{
         fragmentTransaction = getFragmentManager().beginTransaction();
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
         fragmentTransaction.setCustomAnimations(R.animator.slide_in_left, R.animator.slide_in_right);
+
         switch (item.getItemId()) {
             case R.id.radiobtn:
                 if(fragmentAlienVest.isVisible())
@@ -56,10 +64,14 @@ public class TestMain extends Activity{
         fragmentRadio = new FragmentRadio();
         fragmentTransaction = getFragmentManager().beginTransaction();
 
+
+
         fragmentTransaction.setCustomAnimations(R.animator.slide_in_left, R.animator.slide_in_right);
         fragmentTransaction.replace(R.id.container, fragmentAlienVest);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
-
     }
+
+    /*------------------------------------------keyBack-------------------------------------------*/
+
 }

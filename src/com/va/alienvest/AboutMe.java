@@ -22,17 +22,4 @@ public class AboutMe extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about_me);
    }
-
-    public void onClickAct(View view) {
-        switch (view.getId()){
-            case R.id.radiobtn:
-                Intent iRadio = new Intent(getApplicationContext(), Radio.class);
-                startActivity(iRadio);
-                break;
-            case R.id.alienvestbtn:
-                Intent iAlienVest = new Intent(getApplicationContext(), Main.class);
-                startActivity(iAlienVest);
-                break;
-        }
-    }
 }

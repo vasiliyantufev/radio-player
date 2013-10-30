@@ -148,7 +148,7 @@ public class FullImageActivity extends Activity {
 
             if (mp.isPlaying()){
                 mp.stop();
-                Intent intent = new Intent(this, Main.class);
+                Intent intent = new Intent(this, TestMain.class);
                 startActivity(intent);
             }
             //показываем, что обработали событие нажатия на клавишу, возвращая true
