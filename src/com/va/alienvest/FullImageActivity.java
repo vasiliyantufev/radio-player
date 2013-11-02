@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -129,32 +128,9 @@ public class FullImageActivity extends Activity {
     }
 
     @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        //Проверяем какая кнопка была нажата
-        if (keyCode == KeyEvent.KEYCODE_BACK) {
-
-			/*выполняем нужные действия*/
-/*
-            if (mp != null) {
-                try {
-                    super.onDestroy();
-                    mp.release();
-                    mp = null;
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-*/
-
-            if (mp.isPlaying()){
-                mp.stop();
-                Intent intent = new Intent(this, TestMain.class);
-                startActivity(intent);
-            }
-            //показываем, что обработали событие нажатия на клавишу, возвращая true
-            return true;
-        }
-        return super.onKeyDown(keyCode, event);
+    public void onBackPressed () {
+        mp.stop();
+        this.finish();
     }
 
     public void onClick(View view) {
@@ -167,7 +143,12 @@ public class FullImageActivity extends Activity {
                 if(mp.isPlaying())
                     mp.pause();
                 break;
-//            case R.id.seekBar:
+            case R.id.backward:
+                mp.seekTo(mp.getCurrentPosition() - 10000);
+                break;
+            case R.id.forward:
+                mp.seekTo(mp.getCurrentPosition() + 10000);
+                break;
         }
     }
 }

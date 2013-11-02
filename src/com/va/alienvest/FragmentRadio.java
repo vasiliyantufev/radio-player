@@ -3,6 +3,7 @@ package com.va.alienvest;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -10,15 +11,18 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.ContextThemeWrapper;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.IOException;
 
@@ -42,12 +46,65 @@ public class FragmentRadio extends Fragment implements MediaPlayer.OnPreparedLis
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup group, Bundle bundle) {
 
+
+
         mediaPlayer = new MediaPlayer();
+
+        // create ContextThemeWrapper from the original Activity Context with the custom theme
+        // final Context contextThemeWrapper = new ContextThemeWrapper(getActivity(), android.R.style.Theme_Panel);
+        // clone the inflater using the ContextThemeWrapper
+        // LayoutInflater localInflater = inflater.cloneInContext(contextThemeWrapper);
+        // LayoutInflater view2 = inflater.cloneInContext(contextThemeWrapper);
 
         View view = inflater.inflate(R.layout.radio, null);
 
         spinnerStyle = (Spinner)view.findViewById(R.id.style);
         spinnerCountry = (Spinner)view.findViewById(R.id.country);
+
+        View Btn1 = view.findViewById(R.id.button);
+        Button Btn2 = (Button)view.findViewById(R.id.button2);
+        Button Btn3 = (Button)view.findViewById(R.id.button3);
+
+        Intent intentRadio = getActivity().getIntent();
+
+        String countryOption = intentRadio.getStringExtra("country");
+        String genreOption = intentRadio.getStringExtra("genre");
+        String languageOption = intentRadio.getStringExtra("language");
+
+        //Btn1.setText(countryOption);
+        Btn2.setText(genreOption);
+        Btn3.setText(languageOption);
+
+
+        Btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Option.class);
+                intent.putExtra("option", "country");
+                startActivity(intent);
+                //Toast.makeText(getActivity(), "btn1", Toast.LENGTH_LONG);
+            }
+        });
+
+        Btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Option.class);
+                intent.putExtra("option", "genre");
+                startActivity(intent);
+                //Toast.makeText(getActivity(), "btn2", Toast.LENGTH_LONG);
+            }
+        });
+
+        Btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Option.class);
+                intent.putExtra("option", "language");
+                startActivity(intent);
+                //Toast.makeText(getActivity(), "btn3", Toast.LENGTH_LONG);
+            }
+        });
 
         lvStation = (ListView)view.findViewById(R.id.station);
 
@@ -140,6 +197,10 @@ public class FragmentRadio extends Fragment implements MediaPlayer.OnPreparedLis
         });
     /*--------------------------------------------------------------------------------------------*/
         return view;
+
+
+        // inflate the layout using the cloned inflater, not default inflater
+        //return localInflater.inflate(R.layout.radio, group, false);
     }
 
     /*---------------------------------- по умолчанию mediaPlayer---------------------------------*/
@@ -235,9 +296,6 @@ public class FragmentRadio extends Fragment implements MediaPlayer.OnPreparedLis
             e.printStackTrace();
         }
     }
-
-    /*------------------------------------------keyBack-------------------------------------------*/
-
 
     /*----------------------------------------DB--------------------------------------------------*/
     class DBHelper extends SQLiteOpenHelper {

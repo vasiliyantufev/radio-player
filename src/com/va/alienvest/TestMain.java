@@ -8,11 +8,14 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
+
 
 public class TestMain extends Activity{
 
@@ -64,14 +67,31 @@ public class TestMain extends Activity{
         fragmentRadio = new FragmentRadio();
         fragmentTransaction = getFragmentManager().beginTransaction();
 
-
-
         fragmentTransaction.setCustomAnimations(R.animator.slide_in_left, R.animator.slide_in_right);
         fragmentTransaction.replace(R.id.container, fragmentAlienVest);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
 
-    /*------------------------------------------keyBack-------------------------------------------*/
-
+//    /*------------------------------------------keyBack-------------------------------------------*/
+//    @Override
+//    public boolean onKeyDown(int keyCode, KeyEvent event) {
+//        Toast.makeText(getApplicationContext(), "j", Toast.LENGTH_LONG);
+//        //Проверяем какая кнопка была нажата
+//        if (keyCode == KeyEvent.KEYCODE_BACK) {
+//
+//        FragmentRadio fragmentRadio1 = new FragmentRadio();
+//            if(fragmentRadio1.mediaPlayer != null) {
+//                fragmentRadio1.mediaPlayer.pause();
+//            }
+//
+//            //показываем, что обработали событие нажатия на клавишу, возвращая true
+//            return true;
+//        }
+//        return super.onKeyDown(keyCode, event);
+//    }
+    @Override
+    public void onBackPressed () {
+        this.finish();
+    }
 }

@@ -34,5 +34,9 @@
                   android:label="Radio">
         </activity>
 
+        <activity android:name=".Option"
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar">
+        </activity>
+
     </application>
 </manifest>

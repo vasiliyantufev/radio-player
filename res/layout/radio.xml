@@ -5,47 +5,89 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+
+    <TableLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/country"
+                android:id="@+id/textView2"
+                android:singleLine="false"
+                android:layout_weight="1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/genre"
+                android:id="@+id/textView3"
+                android:singleLine="false"
+                android:layout_weight="1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/language"
+                android:id="@+id/textView"
+                android:singleLine="false"
+                android:layout_weight="1" />
+        </TableRow>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Radio"
-            android:id="@+id/radiobtn"
-            android:onClick="onClickAct"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="AlienVest"
-            android:id="@+id/alienvestbtn"
-            android:onClick="onClickAct" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="About Me"
-            android:id="@+id/aboutmebtn"
-            android:onClick="onClickAct" />
-    </LinearLayout>
+        <TableRow>
+            <Spinner
+                android:id="@+id/country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <Spinner
+                android:id="@+id/style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <Spinner
+                android:id="@+id/language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
 
-    <Spinner
-        android:id="@+id/style"
-        android:layout_width="178dp"
-        android:layout_height="wrap_content" />
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button 1"
+                android:id="@+id/button"
+                android:layout_weight="1" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button 2"
+                android:id="@+id/button2"
+                android:layout_weight="1" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button 3"
+                android:id="@+id/button3"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
 
-    <Spinner
-        android:id="@+id/country"
-        android:layout_width="178dp"
-        android:layout_height="wrap_content" />
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favoriteStations"
+        android:id="@+id/switch1"
+        android:layout_gravity="center" />
 
 
     <ListView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/station"
         android:layout_gravity="left|center_vertical"/>
