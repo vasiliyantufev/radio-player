@@ -20,6 +20,12 @@
     <string name="stop">Stop</string>
     <string name="FullImage">Full Image</string>
 
+    <string name="favoriteStations">Избранные станции</string>
+    <string name="country">Страна</string>
+    <string name="style">Стиль</string>
+    <string name="genre">Жанр</string>
+    <string name="language">Язык</string>
+
     <string name="chushie_ludi">Чужие люди</string>
     <string name="groza">Гроза</string>
     <string name="inoplanetynin">Инопланетянин</string>
@@ -64,14 +70,41 @@
         них новые в ответ. Лучи ярко-золотые осветили землю вдруг. Небеса уж голубые расстилаются вокруг.
     </string>
 
-    <string-array name="country">
+    <string-array name="countryList">
         <item>Russian</item>
         <item>USA</item>
     </string-array>
 
-    <string-array name="style">
+    <string-array name="genreList">
         <item>Rock</item>
         <item>Pop</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Pop</item>
+    </string-array>
+
+    <string-array name="languageList">
+        <item>Russian</item>
+        <item>German</item>
     </string-array>
 
 </resources>

@@ -31,6 +31,8 @@
             android:id="@+id/seekBar"
             android:layout_gravity="center" />
 
+
+
     <Button
         android:id="@+id/play"
         android:text="@string/play"
@@ -43,6 +45,22 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="onClick"  />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forward"
+            android:id="@+id/forward"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Backward"
+            android:id="@+id/backward"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClick" />
 
     </LinearLayout>
 </ScrollView>
