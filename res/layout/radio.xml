@@ -9,19 +9,18 @@
     <TableLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
-        <TableRow>
+        <TableRow android:visibility="visible">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/country"
                 android:id="@+id/textView2"
                 android:singleLine="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:visibility="visible" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/genre"
                 android:id="@+id/textView3"
                 android:singleLine="false"
@@ -29,21 +28,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/language"
                 android:id="@+id/textView"
                 android:singleLine="false"
                 android:layout_weight="1" />
         </TableRow>
 
-        <TableRow>
+        <TableRow android:visibility="visible">
             <Spinner
                 android:id="@+id/country"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
             <Spinner
-                android:id="@+id/style"
+                android:id="@+id/genre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
@@ -54,29 +52,27 @@
                 android:layout_weight="1" />
         </TableRow>
 
-        <TableRow>
+        <TableRow android:visibility="gone">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button 1"
+                android:text="Страна"
                 android:id="@+id/button"
                 android:layout_weight="1" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button 2"
+                android:text="Жанр"
                 android:id="@+id/button2"
                 android:layout_weight="1" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button 3"
+                android:text="Язык"
                 android:id="@+id/button3"
                 android:layout_weight="1" />
         </TableRow>
     </TableLayout>
-
-
 
     <Switch
         android:layout_width="wrap_content"
@@ -85,6 +81,12 @@
         android:id="@+id/switch1"
         android:layout_gravity="center" />
 
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checked_favorite"
+        android:id="@+id/checkBox" />
 
     <ListView
         android:layout_width="fill_parent"

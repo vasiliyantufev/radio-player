@@ -13,7 +13,7 @@ import java.sql.SQLException;
 
 public class AboutMe extends Activity{
 
-    /**
+    /**..
      * Called when the activity is first created.
      */
     //go go go1

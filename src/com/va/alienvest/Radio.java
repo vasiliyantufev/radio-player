@@ -14,7 +14,6 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -48,7 +47,7 @@ public class Radio extends Activity implements MediaPlayer.OnPreparedListener,
 
         am = (AudioManager) getSystemService(AUDIO_SERVICE);
 
-        spinnerStyle = (Spinner)findViewById(R.id.style);
+        spinnerStyle = (Spinner)findViewById(R.id.genre);
         spinnerCountry = (Spinner)findViewById(R.id.country);
 
         lvStation = (ListView)findViewById(R.id.station);
@@ -325,7 +324,6 @@ public class Radio extends Activity implements MediaPlayer.OnPreparedListener,
             db.execSQL("insert into tblCountry values(null, 'USA');");
             db.execSQL("insert into tblCountry values(null, 'Germany');");
 
-
             db.execSQL("insert into tblStation values(null, 1, 1, 'RADIO RECORD', 'http://air.radiorecord.ru:8101/rr_128', 'false');");
             db.execSQL("insert into tblStation values(null, 1, 2, 'TRANCEMISSION', 'http://air.radiorecord.ru:8102/tm_128', 'false');");
             db.execSQL("insert into tblStation values(null, 1, 3, 'PIRATE STATION', 'http://air.radiorecord.ru:8102/ps_128', 'false');");
@@ -354,6 +352,5 @@ public class Radio extends Activity implements MediaPlayer.OnPreparedListener,
 
     protected void onDestroy(){
         super.onDestroy();
-
     }
 }

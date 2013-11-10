@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 public class TestMain extends Activity{
 
+    public  static String TAG = "myLogs";
     private Fragment fragmentAlienVest;
     private Fragment fragmentRadio;
     private FragmentTransaction fragmentTransaction;
@@ -29,15 +30,14 @@ public class TestMain extends Activity{
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
-
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         fragmentTransaction = getFragmentManager().beginTransaction();
-        fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-        fragmentTransaction.setCustomAnimations(R.animator.slide_in_left, R.animator.slide_in_right);
+//        fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
+//        fragmentTransaction.setCustomAnimations(R.animator.slide_in_left, R.animator.slide_in_right);
 
         switch (item.getItemId()) {
             case R.id.radiobtn:
@@ -67,8 +67,8 @@ public class TestMain extends Activity{
         fragmentRadio = new FragmentRadio();
         fragmentTransaction = getFragmentManager().beginTransaction();
 
-        fragmentTransaction.setCustomAnimations(R.animator.slide_in_left, R.animator.slide_in_right);
-        fragmentTransaction.replace(R.id.container, fragmentAlienVest);
+//        fragmentTransaction.setCustomAnimations(R.animator.slide_in_left, R.animator.slide_in_right);
+        fragmentTransaction.replace(R.id.container, fragmentRadio);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }

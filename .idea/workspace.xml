@@ -41,14 +41,18 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="gg" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1cf8efe-a0d4-4df9-95c9-7851ab84e344" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/checked_favorite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/listview_favorite_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/va/alienvest/AboutMe.java" afterPath="$PROJECT_DIR$/src/com/va/alienvest/AboutMe.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/va/alienvest/FragmentRadio.java" afterPath="$PROJECT_DIR$/src/com/va/alienvest/FragmentRadio.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/va/alienvest/Option.java" afterPath="$PROJECT_DIR$/src/com/va/alienvest/Option.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/va/alienvest/Radio.java" afterPath="$PROJECT_DIR$/src/com/va/alienvest/Radio.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/va/alienvest/TestMain.java" afterPath="$PROJECT_DIR$/src/com/va/alienvest/TestMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/radio.xml" afterPath="$PROJECT_DIR$/res/layout/radio.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AlienVest.iws" />
@@ -105,7 +109,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/va/alienvest/Radio.java" line="101" class="com.va.alienvest.Radio" package="com.va.alienvest">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/va/alienvest/Radio.java" line="100" class="com.va.alienvest.Radio" package="com.va.alienvest">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -120,22 +124,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/va/alienvest/Option.java" line="57" class="com.va.alienvest.Option" package="com.va.alienvest">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/va/alienvest/FragmentRadio.java" line="69" class="com.va.alienvest.FragmentRadio" package="com.va.alienvest">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/va/alienvest/FragmentRadio.java" line="176" class="com.va.alienvest.FragmentRadio$1" package="com.va.alienvest">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -160,31 +149,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestMain.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/TestMain.java">
+      <file leaf-file-name="Radio.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/Radio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="3289" selection-end="3312" vertical-scroll-proportion="0.0" vertical-offset="1370" max-vertical-offset="1734">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6137">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentRadio.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/FragmentRadio.java">
+      <file leaf-file-name="checked_favorite.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/checked_favorite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="6256">
+            <state line="5" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Option.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/Option.java">
+      <file leaf-file-name="AboutMe.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/AboutMe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="0" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.94361526" vertical-offset="706" max-vertical-offset="1377">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="15" column="9" selection-start="334" selection-end="334" vertical-scroll-proportion="0.16859505" vertical-offset="0" max-vertical-offset="605">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -207,22 +194,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/va/alienvest/Radio.java" />
-        <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/src/com/va/alienvest/MyAdapter.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/res/menu/menu.xml" />
-        <option value="$PROJECT_DIR$/src/com/va/alienvest/Main.java" />
         <option value="$PROJECT_DIR$/src/com/va/alienvest/Test.java" />
         <option value="$PROJECT_DIR$/res/layout/test_main.xml" />
         <option value="$PROJECT_DIR$/src/com/va/alienvest/FragmentAlienVest.java" />
         <option value="$PROJECT_DIR$/src/com/va/alienvest/FullImageActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/about_me.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/va/alienvest/AboutMe.java" />
         <option value="$PROJECT_DIR$/src/com/va/alienvest/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/com/va/alienvest/FragmentRadio.java" />
         <option value="$PROJECT_DIR$/src/com/va/alienvest/Option.java" />
+        <option value="$PROJECT_DIR$/res/menu/customdrawablecheckbox.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/customdrawablecheckbox.xml" />
+        <option value="$PROJECT_DIR$/res/layout/radio.xml" />
+        <option value="$PROJECT_DIR$/src/com/va/alienvest/FragmentRadio.java" />
+        <option value="$PROJECT_DIR$/res/layout/listview.xml" />
+        <option value="$PROJECT_DIR$/res/layout/listview_favorite_info.xml" />
+        <option value="$PROJECT_DIR$/src/com/va/alienvest/Radio.java" />
+        <option value="$PROJECT_DIR$/src/com/va/alienvest/AboutMe.java" />
       </list>
     </option>
   </component>
@@ -263,6 +250,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,10 +302,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlienVest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlienVest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,6 +363,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -367,6 +373,7 @@
       <recent name="com.va.alienvest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\test\AlienVest\res\drawable-hdpi" />
       <recent name="C:\Users\va\GitHub\Android studioProjects\AlienVest\res\drawable-hdpi" />
     </key>
   </component>
@@ -574,7 +581,11 @@
       <created>1382992439753</created>
       <updated>1382992439753</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fragments 4">
+      <created>1383656926592</created>
+      <updated>1383656926592</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -599,24 +610,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24801272" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4880763" sideWeight="0.5128788" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3227345" sideWeight="0.5128788" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29570746" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781065" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36248013" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35974643" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781065" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20151515" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2030303" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29570746" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -628,20 +639,20 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20860389" sideWeight="0.5759036" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32750398" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32591414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24852072" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24801272" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29570746" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29570746" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781065" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781065" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20151515" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
@@ -657,11 +668,11 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4880763" sideWeight="0.5128788" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32740214" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34340224" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32591414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36133122" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -677,74 +688,13 @@
     <MESSAGE value="test" />
     <MESSAGE value="readme" />
     <MESSAGE value="del dbHelper" />
-    <option name="LAST_COMMIT_MESSAGE" value="del dbHelper" />
+    <MESSAGE value="fragments 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="fragments 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/AboutMe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="566" selection-end="566" vertical-scroll-proportion="0.4311594" vertical-offset="0" max-vertical-offset="552">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/about_me.xml">
-      <provider editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425" />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/ImageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="273" selection-end="273" vertical-scroll-proportion="0.2155797" vertical-offset="0" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/MyAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="360" selection-end="360" vertical-scroll-proportion="-0.92391306" vertical-offset="612" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/SquareImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.2155797" vertical-offset="0" max-vertical-offset="552">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/FullImageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="27" selection-start="5345" selection-end="5345" vertical-scroll-proportion="0.76992756" vertical-offset="2040" max-vertical-offset="2754">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/Radio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="273" column="12" selection-start="9693" selection-end="10484" vertical-scroll-proportion="-0.7923729" vertical-offset="4641" max-vertical-offset="5814">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="19" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.0" vertical-offset="754" max-vertical-offset="7429" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Instrumentation.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="112" column="16" selection-start="5963" selection-end="5963" vertical-scroll-proportion="0.0" vertical-offset="1757" max-vertical-offset="2686" />
@@ -752,14 +702,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/FragmentAlienVest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.1973466" vertical-offset="0" max-vertical-offset="603">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/widget/AdapterView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="2193" />
+        <state line="14" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.1973466" vertical-offset="0" max-vertical-offset="603" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/widget/AbsListView.class">
@@ -767,26 +710,86 @@
         <state line="39" column="19" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="5202" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="1" selection-start="2480" selection-end="2480" vertical-scroll-proportion="0.90933335" vertical-offset="764" max-vertical-offset="1207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/Option.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="1" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0" vertical-offset="916" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="351" column="16" selection-start="15558" selection-end="15558" vertical-scroll-proportion="0.0" vertical-offset="5832" max-vertical-offset="7429" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="1411" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Looper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="696" selection-end="743" vertical-scroll-proportion="0.401084" vertical-offset="226" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/widget/AdapterView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="19" selection-start="4013" selection-end="4013" vertical-scroll-proportion="0.33333334" vertical-offset="1401" max-vertical-offset="2193" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="3289" selection-end="3312" vertical-scroll-proportion="0.0" vertical-offset="1370" max-vertical-offset="1734">
+        <state line="30" column="1" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/FragmentRadio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="6052">
+        <state line="381" column="0" selection-start="17312" selection-end="17312" vertical-scroll-proportion="0.0" vertical-offset="4937" max-vertical-offset="7089">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/Option.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/listview_favorite_info.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.94361526" vertical-offset="706" max-vertical-offset="1377">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="29" column="0" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="595" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/radio.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1734" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/Radio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/checked_favorite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/va/alienvest/AboutMe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="334" selection-end="334" vertical-scroll-proportion="0.16859505" vertical-offset="0" max-vertical-offset="605">
+          <folding />
         </state>
       </provider>
     </entry>
