@@ -81,13 +81,6 @@
         android:id="@+id/switch1"
         android:layout_gravity="center" />
 
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:button="@drawable/checked_favorite"
-        android:id="@+id/checkBox" />
-
     <ListView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

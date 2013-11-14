@@ -20,14 +20,14 @@ public class MyAdapter extends BaseAdapter {
     public MyAdapter(Context context) {
         inflater = LayoutInflater.from(context);
 
-        items.add(new Item(R.string.chushie_ludi,   R.drawable.chushie_ludi));
+        items.add(new Item(R.string.chushie_ludi,     R.drawable.chushie_ludi));
         items.add(new Item(R.string.groza,          R.drawable.groza));
         items.add(new Item(R.string.inoplanetynin,  R.drawable.inoplanetynin));
         items.add(new Item(R.string.kukla_vudu,     R.drawable.kukla_vudu));
         items.add(new Item(R.string.molitva,        R.drawable.molitva));
         items.add(new Item(R.string.teni,           R.drawable.teni));
         items.add(new Item(R.string.voda_i_plamy,   R.drawable.voda_i_plamy));
-        items.add(new Item(R.string.zorka,          R.drawable.zorka));
+        items.add(new Item(R.string.zorka,         R.drawable.zorka));
     }
 
     @Override
