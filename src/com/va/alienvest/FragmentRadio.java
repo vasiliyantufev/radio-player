@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
+import android.view.animation.LayoutAnimationController;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.CompoundButton;
@@ -269,7 +271,6 @@ public class FragmentRadio extends Fragment implements Spinner.OnItemSelectedLis
             selection = "id_genre = ? AND  id_country = ?  AND  id_language = ?  AND favorite = ?";
             selectionArgs = new String[] { Integer.toString(spinnerGenrePosition),  Integer.toString(spinnerCountryPosition), Integer.toString(spinnerLanguagePosition), (new Boolean(favoriteChecked).toString())};
             cStation = db.query("tblStation", null, selection, selectionArgs, null, null, null);
-
         }
 
         else if (spinnerGenrePosition == 0 && spinnerCountryPosition == 0 && spinnerLanguagePosition == 0  && favoriteChecked) {
@@ -288,7 +289,6 @@ public class FragmentRadio extends Fragment implements Spinner.OnItemSelectedLis
         int nameColIndexStation = cStation.getColumnIndex("title");
         int nameColIndexFavorite = cStation.getColumnIndex("favorite");
 
-
         int index = 0;
         // ставим позицию курсора на первую строку выборки
         if (cStation.moveToFirst()) {
@@ -303,6 +303,10 @@ public class FragmentRadio extends Fragment implements Spinner.OnItemSelectedLis
             BoxAdapter adapter = new BoxAdapter(getActivity(), dateStation, dateFavorite);
             // ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), R.layout.item, R.id.tvStation, dateStation);
             lvStation.setAdapter(adapter);
+
+            LayoutAnimationController controller = AnimationUtils
+                    .loadLayoutAnimation(getActivity(), R.animator.list_layout_controller);
+            lvStation.setLayoutAnimation(controller);
         }
         else
             lvStation.setAdapter(null);
