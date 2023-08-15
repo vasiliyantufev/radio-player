@@ -1,4 +1,4 @@
-AlienVest
+Radio player
 =========
 
-Android project
+android application
